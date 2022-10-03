@@ -86,7 +86,7 @@
                                         const elCode = el.querySelector('code');
 
                                         // Insert content into containers
-                                        elCode.innerHTML = fileContent;
+                                        elCode.text = fileContent;
 
                                         const extendDiffHighlight = () => {
                                             // TODO: Move to functions.js after ES6 migration
